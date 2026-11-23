@@ -59,7 +59,8 @@ server <- function(input, output) {
       labs(
         title = paste(input$pick, "Math Proficiency Across Evesham Schools"),
         x = "Proficiency (%)",
-        y = "Elementary School"
+        y = "Elementary School",
+        caption = "Source: NJDOE, 2024–2025 School Performance Reports"
       )
     
   })
@@ -78,6 +79,7 @@ server <- function(input, output) {
         title = "Median Student Growth Across Evesham Schools",
         x = "Median Student Growth Percentile (%)",
         y = "Elementary School",
+        caption = "Source: NJDOE, 2024–2025 School Performance Reports",
         fill = "Subject"
       )
     
