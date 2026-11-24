@@ -43,7 +43,9 @@ Downloaded: 11/2/2026
 Sources: 
 - [U.S. Census Bureau - data.census.gov] (https://data.census.gov/). 
 - [U.S. Census Bureau - 2024 ACS 5-Year Data] (https://www.census.gov/data/developers/data-sets/acs-5year/2024.html).
-- [Census API Key Registration] (https://api.census.gov/data/key_signup.html). 
+- [Census API Key Registration] (https://api.census.gov/data/key_signup.html).
+
+The U.S. Census Bureau is the source of the original data. Any analysis, interpretations, or conclusions drawn from these data are the sole responsibility of the project author and do not necessarily represent the views of the U.S. Census Bureau.
 
 ## Accessing the Data 
 
@@ -56,6 +58,8 @@ After downloading, place each file in its corresponding folder in the project di
 - 'data/njdoe_2024-2025_district_state/'
 
 The original Excel files are storied locally and not uploaded to GitHub. When using the repository on another computer, these files must be downloaded again and placed in the correct folders before running the import script. 
+
+The tables used were B19013, B25
 
 ## How do I run the project? 
 
